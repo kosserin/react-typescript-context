@@ -1,0 +1,21 @@
+.search {
+  max-width: 90vw;
+  width: 600px;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 1.5rem;
+  padding: 0 0.5rem;
+  border-radius: 3px;
+  min-width: 150px;
+}

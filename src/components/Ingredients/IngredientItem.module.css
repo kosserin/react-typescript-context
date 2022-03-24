@@ -1,0 +1,27 @@
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 500ms ease-out;
+  padding: 10px;
+  align-items: center;
+}
+
+.ingredient-item:hover {
+  background-color: rgba(120, 0, 0, 0.7);
+}
+
+.ingredient-item h3 {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.ingredient-item span {
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
